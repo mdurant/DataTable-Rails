@@ -13,6 +13,10 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
+gem 'ajax-datatables-rails', github: 'ajahongir/ajax-datatables-rails', branch: 'v-0-4-0'
+gem 'rails_script'
+gem 'js-routes'
+gem 'responders' # if you are using rails 4.2+
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
